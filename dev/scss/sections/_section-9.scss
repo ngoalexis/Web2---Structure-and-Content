@@ -1,0 +1,22 @@
+/* =============
+    Section 9
+============= */
+#section-9 {
+    background-color: $light-grey;
+
+    .grid-content {
+
+        img{
+            margin-bottom: 0;
+        }
+
+        .content-container{
+            
+            >div{
+                background-color: $white;
+                padding: 10px;
+            }
+        }
+        
+    }
+}
