@@ -248,12 +248,76 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/Content\/Footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/Content\/Footer.html",
+      "oF" : 0
+    },
+    "\/dev\/Content\/Hero1.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/Content\/Hero1.html",
+      "oF" : 0
+    },
+    "\/dev\/Content\/Hero2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/Content\/Hero2.html",
+      "oF" : 0
+    },
+    "\/dev\/Content\/Info.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/Content\/Info.html",
+      "oF" : 0
+    },
+    "\/dev\/Content\/SearchBar.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/Content\/SearchBar.html",
+      "oF" : 0
+    },
+    "\/dev\/Content\/Services.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/Content\/Services.html",
+      "oF" : 0
+    },
+    "\/dev\/Content\/WhatsNew.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/Content\/WhatsNew.html",
+      "oF" : 0
+    },
     "\/dev\/Global\/Head.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/Global\/Head.html",
+      "oF" : 0
+    },
+    "\/dev\/Global\/Header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/Global\/Header.html",
       "oF" : 0
     },
     "\/dev\/Global\/Scripts.kit" : {
