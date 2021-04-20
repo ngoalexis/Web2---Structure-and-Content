@@ -1,0 +1,23 @@
+// Hero
+#hero {
+    align-items: center;
+    background-color: $orange;
+    display: flex;
+    justify-content: center;
+
+    div {
+        text-align: center;
+
+        h1 {
+            color: $white;
+            font-size: rem-calc(25);
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+
+        p{
+            color: $white;
+            font-weight: 300;
+        }
+    }
+}
