@@ -673,7 +673,7 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/sections\/_section-1.scss" : {
+    "\/dev\/scss\/sections\/_Hero1.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -681,13 +681,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_section-1.css",
+      "oAP" : "\/dev\/scss\/sections\/_Hero1.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/sections\/_section-2.scss" : {
+    "\/dev\/scss\/sections\/_hero2.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -695,13 +695,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_section-2.css",
+      "oAP" : "\/dev\/scss\/sections\/_hero2.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/sections\/_section-3.scss" : {
+    "\/dev\/scss\/sections\/_Info.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -709,13 +709,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_section-3.css",
+      "oAP" : "\/dev\/scss\/sections\/_Info.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/sections\/_section-4.scss" : {
+    "\/dev\/scss\/sections\/_SearchBar.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -723,13 +723,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_section-4.css",
+      "oAP" : "\/dev\/scss\/sections\/_SearchBar.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/sections\/_section-5.scss" : {
+    "\/dev\/scss\/sections\/_Services.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -737,13 +737,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_section-5.css",
+      "oAP" : "\/dev\/scss\/sections\/_Services.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/sections\/_section-6.scss" : {
+    "\/dev\/scss\/sections\/_WhatsNew.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -751,91 +751,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_section-6.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/dev\/scss\/sections\/_section-7.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_section-7.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/dev\/scss\/sections\/_section-8.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_section-8.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/dev\/scss\/sections\/_section-9.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_section-9.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/dev\/scss\/sections\/_section-10.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_section-10.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/dev\/scss\/sections\/_section-11.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_section-11.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/dev\/scss\/sections\/_sections.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_sections.css",
+      "oAP" : "\/dev\/scss\/sections\/_WhatsNew.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
