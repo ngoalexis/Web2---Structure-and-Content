@@ -6,29 +6,17 @@
 Main{
 
     display: grid;
-
-    //grid-template-areas:"header header"
-                        //"section1 section2" 
-                       // "footer footer";
+    gap: 30px;
 
     header{
         //grid-area: header;
     }
 
-    #section-1{
-        //grid-area: section1;
+    #hero1 {
+
     }
 
-    #section-2{
-        //grid-area: section2;
-        @include md{
-            display: grid;
-            grid-template-columns: 50% auto;
-        }
-
-        article{}
-        aside{}
-    }
+    #info
 
     footer{
        //grid-area: footer;
