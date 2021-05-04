@@ -355,6 +355,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Logo.png" : {
+      "ft" : 32768,
+      "iS" : 21494,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/Services1.png" : {
       "ft" : 32768,
       "iS" : 15175,

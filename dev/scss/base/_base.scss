@@ -3,26 +3,19 @@
 ============= */
 
 
-Main{
+figure{
+    padding: 0;
 
-    display: grid;
-    gap: 30px;
+ul{
+    padding: o;
+    margin: 0;
 
-    header{
-        //grid-area: header;
+    li{
+        list-style: none;
     }
-
-    #hero1 {
-
-    }
-
-    #info
-
-    footer{
-       //grid-area: footer;
-    }
-
-    }
+}
+ 
+}
    
 
 

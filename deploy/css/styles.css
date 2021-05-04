@@ -317,9 +317,13 @@ template {
 /* =============
     Base
 ============= */
-Main {
-  display: grid;
-  gap: 30px; }
+figure {
+  padding: 0; }
+  figure ul {
+    padding: o;
+    margin: 0; }
+    figure ul li {
+      list-style: none; }
 
 /* =============
     Typography
@@ -368,18 +372,40 @@ textarea {
 /* =============
     Hero 1
 ============= */
+.hero1 {
+  background-color: black; }
+
 /* =============
     hero 2
 ============= */
+#hero2 div {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: ". hero2-content ."; }
+  #hero2 div ul {
+    gap: 16px;
+    display: grid;
+    grid-area: hero2-content; }
+
 /* =============
     info
 ============= */
+#info ul {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 30px; }
+
 /* =============
     search bar
 ============= */
 /* =============
     services
 ============= */
+#services ul {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 30px; }
+
 /* =============
     whats new
 ============= */
