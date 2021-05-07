@@ -1,3 +1,14 @@
 /* =============
     search bar
 ============= */
+
+.searchbar {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". search .";
+
+    >div{
+        // border: 1px solid red;
+        grid-area: search;
+    }
+}

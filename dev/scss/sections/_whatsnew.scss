@@ -1,3 +1,23 @@
 /* =============
     whats new
 ============= */
+
+.whatsnew{
+
+ul {
+    li {
+        img {
+            width: 100%;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". new-content .";
+
+            >div {
+                grid-area: new-content;
+            }
+        }
+    }
+}

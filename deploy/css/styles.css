@@ -317,13 +317,11 @@ template {
 /* =============
     Base
 ============= */
-figure {
-  padding: 0; }
-  figure ul {
-    padding: o;
-    margin: 0; }
-    figure ul li {
-      list-style: none; }
+ul {
+  padding: 0;
+  margin: 0; }
+  ul li {
+    list-style: none; }
 
 /* =============
     Typography
@@ -369,23 +367,36 @@ textarea {
 /* =============
     Footer
 ============= */
+footer {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". footer ."; }
+  footer > div {
+    grid-area: footer;
+    border: 1px solid red; }
+
+/* =============
+    search bar
+============= */
+#searchbar {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". search ."; }
+  #searchbar > div {
+    grid-area: search; }
+
 /* =============
     Hero 1
 ============= */
-.hero1 {
-  background-color: black; }
+.hero1 img {
+  width: 100%; }
 
-/* =============
-    hero 2
-============= */
-#hero2 div {
+.hero1 ul li {
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-areas: ". hero2-content ."; }
-  #hero2 div ul {
-    gap: 16px;
-    display: grid;
-    grid-area: hero2-content; }
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". hero-content ."; }
+  .hero1 ul li a {
+    grid-area: hero-content; }
 
 /* =============
     info
@@ -396,16 +407,27 @@ textarea {
   gap: 30px; }
 
 /* =============
-    search bar
-============= */
-/* =============
     services
 ============= */
-#services ul {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  gap: 30px; }
+/* =============
+    hero 2
+============= */
+#hero2-content ul {
+  display: grid; }
+  #hero2-content ul li img {
+    width: 100%; }
+  #hero2-content ul #h2-3 {
+    display: none; }
 
 /* =============
     whats new
 ============= */
+.whatsnew ul li img {
+  width: 100%; }
+
+.whatsnew ul li section {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". new-content ."; }
+  .whatsnew ul li section > div {
+    grid-area: new-content; }

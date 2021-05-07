@@ -3,5 +3,19 @@
 ============= */
 
 .hero1 {
-    background-color: black;
+    img{
+        width: 100%;
+    }
+
+    ul{
+        li{
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". hero-content .";
+
+            a{
+                grid-area: hero-content; 
+            }
+        }
+    }
 }

@@ -2,19 +2,19 @@
     hero 2
 ============= */
 
-#hero2{
+#hero2-content{
 
-    div{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-areas: ". hero2-content .";
+ul{
+    display: grid;
 
-        ul{
-            gap: 16px;
-            display: grid;
-            grid-area: hero2-content;
-    
-            li{}
+    li{
+        img{
+            width: 100%;
         }
     }
-} 
+
+    #h2-3{
+        display: none;
+    }
+}
+}
