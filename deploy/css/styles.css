@@ -364,6 +364,14 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". header .";
+  background-color: #63ACCC; }
+  header > div {
+    grid-area: header; }
+
 /* =============
     Footer
 ============= */
@@ -373,17 +381,7 @@ footer {
   grid-template-areas: ". footer ."; }
   footer > div {
     grid-area: footer;
-    border: 1px solid red; }
-
-/* =============
-    search bar
-============= */
-#searchbar {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". search ."; }
-  #searchbar > div {
-    grid-area: search; }
+    border: 1px solid blue; }
 
 /* =============
     Hero 1
@@ -399,25 +397,43 @@ footer {
     grid-area: hero-content; }
 
 /* =============
+    hero 2
+============= */
+.hero2 ul {
+  display: grid; }
+  .hero2 ul li img {
+    width: 100%; }
+  .hero2 ul #h2-3 {
+    display: none; }
+
+/* =============
     info
 ============= */
-#info ul {
+.info ul {
   display: grid;
   grid-template-columns: 50% 50%;
   gap: 30px; }
 
 /* =============
+    search bar
+============= */
+.searchbar {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". search ."; }
+  .searchbar > div {
+    grid-area: search; }
+
+/* =============
     services
 ============= */
-/* =============
-    hero 2
-============= */
-#hero2-content ul {
-  display: grid; }
-  #hero2-content ul li img {
-    width: 100%; }
-  #hero2-content ul #h2-3 {
-    display: none; }
+ul li {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". planning-content ."; }
+  ul li > div {
+    grid-area: planning-content;
+    border: 1px solid red; }
 
 /* =============
     whats new

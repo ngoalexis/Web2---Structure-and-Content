@@ -1,3 +1,15 @@
 /* =============
     Header
 ============= */
+
+header{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". header .";
+    background-color: $ocean3;
+
+    >div{
+        
+        grid-area: header;
+    }
+}
