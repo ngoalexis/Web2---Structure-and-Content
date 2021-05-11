@@ -1,0 +1,48 @@
+/* =============
+    hero 1
+============= */
+
+#hero{
+    img{
+        object-fit: cover;
+        width: 100%;
+    }
+
+    ul{
+
+        @include md{
+            display: grid;
+            grid-template-columns: 40% auto;
+        }
+
+        @include lg{
+            grid-template-columns: 50% auto;
+        }
+
+        li{
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". hero-content .";
+
+            @include xl{
+                grid-template-columns: auto 480px 16px;
+            }
+
+            a{
+                grid-area: hero-content; 
+                border: 1px solid red;
+            }
+        }
+
+        #hero-sub-1{
+            background-color: $yellowDark;
+        }
+
+        #hero-sub-2{
+            background-color: $yellow;
+            @include xl{
+                grid-template-columns:  16px 480px auto;
+            }
+        }
+    }
+}

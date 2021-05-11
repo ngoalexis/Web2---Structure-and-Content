@@ -3,40 +3,14 @@
 ============= */
 
 
-Main{
+body{
+    font-family: 'Open Sans', sans-serif;
 
-    display: grid;
-
-    //grid-template-areas:"header header"
-                        //"section1 section2" 
-                       // "footer footer";
-
-    header{
-        //grid-area: header;
-    }
-
-    #section-1{
-        //grid-area: section1;
-    }
-
-    #section-2{
-        //grid-area: section2;
-        @include md{
-            display: grid;
-            grid-template-columns: 50% auto;
+    ul{
+        margin: 0;
+        padding: 0;
+        li{
+            list-style: none;
         }
-
-        article{}
-        aside{}
     }
-
-    footer{
-       //grid-area: footer;
-    }
-
-    }
-   
-
-
-
-
+}
