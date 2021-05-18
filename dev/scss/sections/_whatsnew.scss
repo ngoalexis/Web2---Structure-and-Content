@@ -2,23 +2,24 @@
     whats new
 ============= */
 
-.whatsnew{
+#whatsnew{
+    
+    ul{
+        li{
+            img{
+                width: 50%;
+            }
+            Section{
+                display: grid;
+                grid-template-columns: 16px auto 16px;
+                grid-template-areas: ". whatsnew .";
 
-ul {
-    li {
-        img {
-            width: 100%;
-        }
 
-        section {
-            display: grid;
-            grid-template-columns: 16px auto 16px;
-            grid-template-areas: ". new-content .";
+                Div{
+                    grid-area: whatsnew;
 
-            >div {
-                grid-area: new-content;
+                }
             }
         }
     }
-}
 }
