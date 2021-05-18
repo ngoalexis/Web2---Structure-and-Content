@@ -366,9 +366,48 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". header .";
+  background-color: #63ACCC; }
+  header > div {
+    grid-area: header; }
+
 /* =============
     Footer
 ============= */
+footer {
+  background-color: #1F4C5F;
+  color: white;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". footer ."; }
+  @media (min-width: 1200px) {
+    footer {
+      grid-template-columns: auto 1200px auto; } }
+  footer > div {
+    grid-area: footer; }
+    @media (min-width: 768px) {
+      footer > div {
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-template-areas: "locations sing-up" "locations follow"; } }
+    @media (min-width: 1200px) {
+      footer > div {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "locations sing-up follow"; } }
+    footer > div section ul li i {
+      color: #EDA688; }
+    @media (min-width: 768px) {
+      footer > div #locations {
+        grid-area: locations; } }
+    @media (min-width: 768px) {
+      footer > div #sign-up {
+        grid-area: sing-up; } }
+    @media (min-width: 768px) {
+      footer > div #follow {
+        grid-area: follow; } }
 /* =============
     hero 1
 ============= */

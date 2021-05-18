@@ -1,3 +1,64 @@
 /* =============
     Footer
 ============= */
+
+footer {
+    background-color: $ocean4;
+    color: $white;
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". footer .";
+
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
+    >div {
+        grid-area: footer;
+        // border: 1px solid red;
+        @include md{
+            display: grid;
+            grid-template-columns: 50% auto;
+            grid-template-areas: 
+            "locations sing-up"
+            "locations follow";
+        }
+
+        @include xl{
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: 
+            "locations sing-up follow";
+        }
+
+        section{
+            // border: 1px solid thistle;
+
+            ul{
+                li{
+                    i{
+                        color: $peach2;
+                    }
+                }
+            }
+        }
+
+        #locations{
+            @include md{
+                grid-area: locations;
+            }
+        }
+
+        #sign-up{
+            @include md{
+                grid-area: sing-up;
+            }
+        }
+
+        #follow{
+            @include md{
+                grid-area: follow;
+            }
+        }
+
+    }
+}
