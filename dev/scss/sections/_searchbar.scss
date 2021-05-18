@@ -8,7 +8,6 @@
     grid-template-areas: ". search .";
 
     >div{
-        // border: 1px solid red;
         grid-area: search;
     }
 }

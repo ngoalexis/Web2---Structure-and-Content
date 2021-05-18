@@ -277,6 +277,18 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/1. CSS Grid\/scss\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/1. CSS Grid\/scss\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/1. CSS Grid\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -361,8 +373,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Logo.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -686,89 +698,53 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/sections\/_hero1.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
+    "\/dev\/scss\/sections\/_hero1" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_hero1.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oAP" : "\/dev\/scss\/sections\/_hero1",
+      "oF" : 0
     },
-    "\/dev\/scss\/sections\/_hero2.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
+    "\/dev\/scss\/sections\/_hero2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_hero2.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oAP" : "\/dev\/scss\/sections\/_hero2",
+      "oF" : 0
     },
-    "\/dev\/scss\/sections\/_info.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
+    "\/dev\/scss\/sections\/_info" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_info.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oAP" : "\/dev\/scss\/sections\/_info",
+      "oF" : 0
     },
-    "\/dev\/scss\/sections\/_searchbar.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
+    "\/dev\/scss\/sections\/_searchbar" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_searchbar.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oAP" : "\/dev\/scss\/sections\/_searchbar",
+      "oF" : 0
     },
-    "\/dev\/scss\/sections\/_services.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
+    "\/dev\/scss\/sections\/_services" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_services.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oAP" : "\/dev\/scss\/sections\/_services",
+      "oF" : 0
     },
-    "\/dev\/scss\/sections\/_whatsnew.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
+    "\/dev\/scss\/sections\/_whatsnew" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_whatsnew.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
+      "oAP" : "\/dev\/scss\/sections\/_whatsnew",
+      "oF" : 0
     },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,

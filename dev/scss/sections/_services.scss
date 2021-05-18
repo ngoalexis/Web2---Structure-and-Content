@@ -9,8 +9,7 @@ ul{
         grid-template-areas: ". planning-content .";
 
         >div{
-            grid-area: planning-content; 
-            border: 1px solid red;
+            grid-area: planning-content; ;
         }
     }
 }
