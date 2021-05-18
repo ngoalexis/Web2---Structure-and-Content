@@ -2,13 +2,17 @@
     info
 ============= */
 
-.info{
+#info{
 
     ul{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        gap: 30px;
+        li{
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". info-content .";
 
-        li{}
+            a{
+                grid-area: info-content; 
+            }
+        }
     }
 }

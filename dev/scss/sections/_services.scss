@@ -2,14 +2,19 @@
     services
 ============= */
 
-ul{
-    li{
-        display: grid;
-        grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". planning-content .";
+#services{
 
-        >div{
-            grid-area: planning-content; ;
+    ul{
+        li{
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". services-content .";
+    
+            >div{
+                grid-area: services-content; ;
+                border: 3px blue;
+            }
         }
     }
+
 }
