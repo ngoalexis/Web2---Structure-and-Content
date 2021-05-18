@@ -381,38 +381,38 @@ footer {
   grid-template-areas: ". footer ."; }
   footer > div {
     grid-area: footer;
-    border: 1px solid blue; }
+    border: 1px #1F4C5F; }
 
 /* =============
     Hero 1
 ============= */
-.hero1 img {
+#hero1 img {
   width: 100%; }
 
-.hero1 ul li {
+#hero1 ul li {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". hero-content ."; }
-  .hero1 ul li a {
+  #hero1 ul li a {
     grid-area: hero-content; }
 
 /* =============
     hero 2
 ============= */
-.hero2 ul {
+#hero2 ul {
   display: grid; }
-  .hero2 ul li img {
+  #hero2 ul li img {
     width: 100%; }
-  .hero2 ul #h2-3 {
-    display: none; }
 
 /* =============
     info
 ============= */
-.info ul {
+#info ul li {
   display: grid;
-  grid-template-columns: 50% 50%;
-  gap: 30px; }
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". info-content ."; }
+  #info ul li a {
+    grid-area: info-content; }
 
 /* =============
     search bar
@@ -427,23 +427,22 @@ footer {
 /* =============
     services
 ============= */
-ul li {
+#services ul li {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". planning-content ."; }
-  ul li > div {
-    grid-area: planning-content;
-    border: 1px solid red; }
+  grid-template-areas: ". services-content ."; }
+  #services ul li > div {
+    grid-area: services-content; }
 
 /* =============
     whats new
 ============= */
-.whatsnew ul li img {
-  width: 100%; }
+#whatsnew ul li img {
+  width: 50%; }
 
-.whatsnew ul li section {
+#whatsnew ul li Section {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". new-content ."; }
-  .whatsnew ul li section > div {
-    grid-area: new-content; }
+  grid-template-areas: ". whatsnew ."; }
+  #whatsnew ul li Section Div {
+    grid-area: whatsnew; }
