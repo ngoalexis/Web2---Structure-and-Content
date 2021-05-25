@@ -3,15 +3,28 @@
 ============= */
 
 #info{
-    ul{
-        li{
-            display: grid;
-            grid-template-columns: 16px auto 16px;
-            grid-template-areas: ". info-content .";
 
-            a{
-                grid-area: info-content; 
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". info-content .";
+
+    ul{
+
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "before location";
+        grid-area: info-content;
+
+        li{
+        
+            #before{
+                grid-area: before;
             }
+
+            #location{
+                grid-area: location;
+    
+            }
+           
         }
     }
 }
